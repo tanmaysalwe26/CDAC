@@ -6,7 +6,8 @@ class Q41 {
         System.out.println("Enter number: ");
         int n = sc.nextInt();
 
-        int original = n, sum = 0;
+        int original = n, 
+        int sum = 0;
         while (n > 0) {
             int d = n % 10;
             sum += d * d * d;
@@ -25,3 +26,4 @@ Enter number:
 153
 153 is an Armstrong number
 */
+
